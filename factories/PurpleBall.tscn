@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://sprites/PurpleBall.png" type="Texture" id=1]
+[ext_resource path="res://factories/PurpleBall.gd" type="Script" id=2]
+
+[node name="PurpleBall" type="Node2D"]
+position = Vector2( 20, 20 )
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
